@@ -11,10 +11,10 @@
 
             while (true)
             {
-                Console.Beep(1000, 250);
-                Console.Beep(2000, 250);
-                Console.Beep(1500, 250);
-                Console.Beep(1000, 500);
+                Console.Beep(988, 250);
+                Console.Beep(1980, 250);
+                Console.Beep(1480, 250);
+                Console.Beep(988, 500);
                 Console.WriteLine("------------------");
                 Console.WriteLine("Calculator Program");
                 Console.WriteLine("------------------");
@@ -86,10 +86,10 @@
                 if (repeat != "Y")
                 {
                     Console.WriteLine("Goodbye!!!");
-                    Console.Beep(2000, 250);
-                    Console.Beep(1500, 250);
-                    Console.Beep(1000, 250);
-                    Console.Beep(500, 250);
+                    Console.Beep(1980, 250);
+                    Console.Beep(1480, 250);
+                    Console.Beep(988, 250);
+                    Console.Beep(494, 300);
                     break;
                 }
             }
